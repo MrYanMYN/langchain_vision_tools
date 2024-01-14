@@ -40,10 +40,8 @@ print(f"CLIP Result: {clip_result}")
 
 # DeepDanbooru prediction with a score threshold
 score_threshold = 0.5
-deepdan_result_threshold, deepdan_result_all, deepdan_result_text = vision_tools.deepdan_predict(image_path, score_threshold)
-print(f"DeepDanbooru Result (Threshold): {deepdan_result_threshold}")
-print(f"DeepDanbooru Result (All): {deepdan_result_all}")
-print(f"DeepDanbooru Result (Text): {deepdan_result_text}")
+deepdan_result = vision_tools.deepdan_predict(image_path, score_threshold)
+print(f"DeepDanbooru Result (Text): {deepdan_result}")
 
 ```
 Acknowledgements
