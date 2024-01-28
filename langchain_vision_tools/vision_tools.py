@@ -1,6 +1,5 @@
 import base64
 from openai import OpenAI
-from langchain.tools import tool
 import deepdanbooru as dd
 import numpy as np
 import PIL.Image
